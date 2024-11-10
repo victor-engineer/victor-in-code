@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal Responsive</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--Font Poppins-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--style.css-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Navigation Section -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            Victor <span>Lima</span>
+        </div>
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100"><a href="#home">Home</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200"><a href="#about">About</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300"><a href="#skills">Skills</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400"><a href="#services">Services</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500"><a href="#contact">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()" aria-label="Menu"></i>
+    </div>
+
+    <!-- Dropdown Menu for Mobile -->
+    <div class="dropdown">
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()" aria-label="Close Menu"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Section -->
+<section>
+    <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+            <img src="/image/WhatsApp Image 2024-11-10 at 08.28.26.jpeg" alt="Profile Picture">
+        </div>
+        <div class="content">
+            <h1 data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700">Hey I'm <span>Victor</span></h1>
+            <div class="typewriter" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="900">
+                I'm a <span class="typewriter-text"></span><label for="">|</label>
+            </div>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                Olá, sou Victor Lima, um desenvolvedor apaixonado por tecnologia e programação, com experiência em Java, Spring Boot, PostgreSQL, e microserviços. 
+                Tenho uma formação em Análise e Desenvolvimento de Sistemas pela UNIASSELVI, e estou sempre em busca de novos desafios para melhorar minhas habilidades e expandir meus conhecimentos.
+            </p>
+            <div class="social-links">
+                <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1300" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1400" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1500" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1600" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                <button>Hire me</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section Start -->
+<section id="about" class="about">
+    <div class="content">
+        <div class="title" data-aos="fade-right" data-aos-duration="1100"><span>About Me</span></div>
+        <div class="about-details">
+            <div class="left" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+                <img src="image/main.png" alt="Victor Lima">
+            </div>
+            <div class="right">
+                <p class="about-text" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="200">I am <span>Victor</span>, a <span>web developer and designer</span> passionate about turning dreams into reality through technology.</p>
+                <div class="exp-area">
+                    <p class="exp" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="300">
+                        Experience:
+                        <span>1 year</span>
+                    </p>
+                    <p class="exp" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="400">
+                        Specialty:
+                        <span>Web Design & Development</span>
+                    </p>
+                    <p class="exp" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="500">
+                        Address:
+                        <span>Ceará, Brazil</span>
+                    </p>
+                    <p class="exp" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="600">
+                        Email:
+                        <span>elderdelima533@gmail.com</span>
+                    </p>
+                    <p class="exp" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="700">
+                        Phone:
+                        <span>+55 88 992006439</span>
+                    </p>
+                    <p class="exp" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="800">
+                        Freelance:
+                        <span>Available</span>
+                    </p>
+                </div>
+                <div class="button" data-aos="zoom-out" data-aos-duration="1100" data-aos-delay="900">
+                    <button>View All Projects</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+</section>
+
+
+<!-- My Skills Section Start-->
+<section class="skills" id="skills">
+<div class="content">
+    <div class="title" data-aos="fade-right" data-aos-duration="1100">
+        <span>My Skills</span>
+    </div> <!-- Fechando div .title -->
+    
+    <div class="skills-details">
+        <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">Skills Reflect Our Knowledge</div>
+            <p data-aos="flip-down" data-aos-duration="1100" data-aos-delay="200">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="experience" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
+                <div class="num">10</div>
+                <div class="exp">
+                    Years Of <br/>
+                    Experience
+                </div>
+            </div> <!-- Fechando div .experience -->
+        </div> <!-- Fechando div .text -->
+
+        <div class="boxes">
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="400">
+                <div class="topic">HTML</div>
+                <div class="per">95%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="500">
+                <div class="topic">CSS</div>
+                <div class="per">90%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="600">
+                <div class="topic">JavaScript</div>
+                <div class="per">60%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="700">
+                <div class="topic">JAVA</div>
+                <div class="per">95%</div>
+            </div>
+        </div> <!-- Fechando div .boxes -->
+    </div> <!-- Fechando div .skills-details -->
+</div> <!-- Fechando div .content -->
+</section> <!-- Fechando section .skills -->
+
+
+<!-- My Services Section Start-->
+<section class="services" id="services">
+<div class="content">
+    <div class="title" data-aos="fade-up" data-aos-duration="1100">
+        <span>My Services</span>
+    </div> <!-- Fechando div .title -->
+    
+    <div class="boxes">
+        <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+            <div class="icon">
+                <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Development</div>
+            <p>Here’s an example of how you can structure a Web Development
+                 Skills section for your resume.
+                 Feel free to tailor it based on 
+                 your experience and proficiency:</p>
+        </div> <!-- Fechando div .box -->
+
+        <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+            <div class="icon">
+                <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Graphic Design</div>
+            <p>This format helps to highlight your technical proficiency
+                 in the most relevant areas for web development, while also 
+                 showcasing your soft skills. Adjust based on your specific 
+                 expertise and job targets.</p>
+        </div> <!-- Fechando div .box -->
+
+        <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200">
+            <div class="icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Digital Marketing</div>
+            <p>This format helps to highlight your technical proficiency
+                 in the most relevant areas for web development, while also 
+                 showcasing your soft skills. Adjust based on your specific 
+                 expertise and job targets.</p>
+        </div> <!-- Fechando div .box -->
+
+        <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="300">
+            <div class="icon">
+                <i class="fas fa-android"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>This format helps to highlight your technical proficiency
+                 in the most relevant areas for web development, while also 
+                 showcasing your soft skills. Adjust based on your specific 
+                 expertise and job targets.</p>
+        </div> <!-- Fechando div .box -->
+
+        <div class="box" data-aos="fade-down" data-aos-duration="1100" data-aos-delay="400">
+            <div class="icon">
+                <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Photography</div>
+            <p>This format helps to highlight your technical proficiency
+                 in the most relevant areas for web development, while also 
+                 showcasing your soft skills. Adjust based on your specific 
+                 expertise and job targets.</p>
+        </div> <!-- Fechando div .box -->
+
+        <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="500">
+            <div class="icon">
+                <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Apps Development</div>
+            <p>This format helps to highlight your technical proficiency
+                 in the most relevant areas for web development, while also 
+                 showcasing your soft skills. Adjust based on your specific 
+                 expertise and job targets.</p>
+        </div> <!-- Fechando div .box -->
+
+    </div> <!-- Fechando div .boxes -->
+</div> <!-- Fechando div .content -->
+</section> <!-- Fechando section .services -->
+
+
+<!-- Contact Me Section Start-->
+<section class="contact" id="contact">
+<div class="content">
+    <div class="title" data-aos="fade-right" data-aos-duration="1100">
+        <span>Contact Me</span>
+    </div> <!-- Fechando div .title -->
+    
+    <div class="text">
+        <div class="topic" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100">Have Any Project?</div>
+        <p data-aos="fade-right" data-aos-duration="1100" data-aos-delay="200">This format helps to highlight your technical proficiency in the most relevant areas for web development, while also showcasing your soft skills. Adjust based on your specific expertise and job targets.</p>
+    </div> <!-- Fechando div .text -->
+    
+    <div class="contact-form-container">
+        <form class="contact-form">
+            <label for="name" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+            
+            <label for="email" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">
+            
+            <label for="phone" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+            
+            <label for="message" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">Message</label>
+            <textarea name="message" id="message" rows="5" placeholder="Your Message" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600"></textarea>
+            
+            <button type="submit" class="contact-btn" data-aos="zoom-in-up" data-aos-duration="1100" data-aos-delay="700">Send Message</button>
+        </form>
+    </div> <!-- Fechando div .contact-form-container -->
+</div> <!-- Fechando div .content -->
+</section> <!-- Fechando section .contact -->
+
+
+ <!-- Footer Section Start-->
+<footer>
+<div class="text">
+    <span>Created By <a href="#">Victor Lima</a> | &#169; 2024 All Rights Reserved</span>
+</div>
+</footer>
+
+<!-- AOS Animation Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({ offset: 0 });
+
+    // Function to show the dropdown menu
+    function hamburg() {
+        const navbar = document.querySelector(".dropdown");
+        if (navbar) {
+            navbar.style.transform = 'translateY(0px)';
+        }
+    }
+
+    // Function to hide the dropdown menu
+    function cancel() {
+        const navbar = document.querySelector(".dropdown");
+        if (navbar) {
+            navbar.style.transform = 'translateY(-500px)';
+        }
+    }
+</script>
+
+<!-- Custom Script -->
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
